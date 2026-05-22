@@ -14,11 +14,17 @@ async function GetData() {
 
         const result = await response.json();
         console.log(result);
+        return result
 
     } catch (error) {
         console.log(error.message);
+        return error
     }
 
 }
 
-GetData()
+Data = GetData()
+
+isOnline = Data.online;
+
+Is_server_online.innerHTML = String(isOnline)
