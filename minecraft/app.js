@@ -27,4 +27,8 @@ Data = GetData()
 
 isOnline = Data.online;
 
-Is_server_online.innerHTML = String(isOnline)
+if (isOnline == true) {
+    Is_server_online.innerHTML = "Online"
+} else {
+    Is_server_online.innerHTML = "Offline"
+}
