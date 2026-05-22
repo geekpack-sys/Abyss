@@ -2,7 +2,7 @@ const Players_online_text = document.getElementById("players")
 const Is_server_online = document.getElementById("status")
 
 async function GetData() {
-    const url = "https://api.mcsrvstat.us/3/belgianfries2.aternos.me:61388"
+    const url = "https://api.mcstatus.io/v2/status/java/belgianfries2.aternos.me:61388"
 
     try {
         const response = await fetch(url)
