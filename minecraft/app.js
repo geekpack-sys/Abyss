@@ -1,7 +1,7 @@
 const Players_online_text = document.getElementById("players")
 const Is_server_online = document.getElementById("status")
 
-async function GetData(params) {
+async function GetData() {
     const url = "https://api.mcsrvstat.us/3/"
     const Server_Domein = "BelgianFries2.aternos.me"
 
@@ -20,3 +20,5 @@ async function GetData(params) {
     }
 
 }
+
+GetData()
