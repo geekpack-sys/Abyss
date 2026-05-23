@@ -36,7 +36,7 @@ if (isOnline) {
 
 
 function start_server() {
-    await fetch("https://aternos.org/ajax/server/start?access-credits=false&TOKEN=iGGf0dbSVtxCCBFTG6EF&SEC=uBqXlA1eJyMHGTw8%3ArgdXP87TScAb2cBq&SERVER=dmlaAN2GCtBquU3p", {
+    fetch("https://aternos.org/ajax/server/start?access-credits=false&TOKEN=iGGf0dbSVtxCCBFTG6EF&SEC=uBqXlA1eJyMHGTw8%3ArgdXP87TScAb2cBq&SERVER=dmlaAN2GCtBquU3p", {
     "credentials": "include",
     "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0",
