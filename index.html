@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <title>Minecraft</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abyss Survival</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-  <h1>Hello, this is my website</h1>
-  <p>To join the Minecraft server please go to <a href="/minecraft">mc.abyss.work.gd</a></p>
-  <a href="/School/index.html">school</a>
+
+<div class="overlay"></div>
+
+<div class="particles"></div>
+
+<main>
+
+    <h1>ABYSS SURVIVAL</h1>
+
+    <p class="subtitle">
+        A premium Minecraft survival experience.
+    </p>
+
+    <div class="ip-box">
+        mc.abyss.work.gd
+    </div>
+
+    <div class="buttons">
+
+        <a href="/minecraft" class="btn">
+            JOIN SERVER
+        </a>
+
+        <button class="btn secondary" onclick="copyIP()">
+            COPY IP
+        </button>
+
+    </div>
+
+    <div class="status">
+
+        <span class="dot"></span>
+
+        <span id="status-text">
+            Loading server status...
+        </span>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2025 Abyss Survival
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
